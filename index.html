@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoredBot - Find Your Spark</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Dekorasi latar belakang berupa elemen lingkaran (blobs) -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <main class="app-container">
+        <!-- Ikon bot yang berubah statusnya saat berinteraksi -->
+        <div class="bot-status" id="bot-icon" role="img" aria-label="Robot Icon">🤖</div>
+        
+        <!-- Judul utama dan teks status bot -->
+        <div class="header-group">
+            <p id="bot-subtitle">Status: Seeking Adventure</p>
+            <h1 id="title">BoredBot</h1>
+        </div>
+
+        <!-- Area display untuk menampilkan aktivitas yang didapat dari API -->
+        <div class="activity-card">
+            <h2 id="activity">Find something fun to do</h2>
+        </div>
+
+        <!-- Tombol utama untuk memicu pengambilan data (fetch) -->
+        <button class="btn-trigger" id="get-activity">
+            <span id="btn-text">⚡ SHAKE THE BOREDOM</span>
+        </button>
+
+        <!-- Modal yang muncul setelah ada aktivitas untuk mereset tampilan -->
+        <div class="modal" id="reset-modal" aria-hidden="true">
+            <div class="modal-content">
+                <button id="btn-reset" class="btn-trigger">Reset</button>
+            </div>
+        </div>
+        <p class="footer-text">Press the big red button to cure your boredom</p>
+    </main>
+    
+    <script type="module" src="main.js"></script>
+</body>
+</html>
