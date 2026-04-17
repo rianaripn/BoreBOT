@@ -4,6 +4,14 @@
 
 ---
 
+## Live Demo
+
+https://bore-bot-akf2.vercel.app/
+
+## Screenshoot app
+
+![boreBOT-mainMenu](image.png)
+
 ## ✨ Fitur Utama
 
 - **Aktivitas Dinamis**: Mengambil ide kegiatan secara real-time dari API.
